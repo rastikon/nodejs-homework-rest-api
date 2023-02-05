@@ -28,7 +28,6 @@ const joiSchema = Joi.object({
 });
 
 const joiSchemaUpdate = Joi.object({
-  // id: Joi.string(),
   name: Joi.string(),
   email: Joi.string(),
   phone: Joi.string(),
